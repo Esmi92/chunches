@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Chunches from './Chunches.js';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/scss/bootstrap.scss'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Chunches />
   </React.StrictMode>,
   document.getElementById('root')
 );
