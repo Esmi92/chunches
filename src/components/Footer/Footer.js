@@ -1,8 +1,9 @@
 import React from 'react'
+import './Footer.scss'
 
 function Footer (){
     return(
-        <div>
+        <div id="footer">
 
         </div>
     )
